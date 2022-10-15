@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  bot:
+    image: ghcr.io/r-priyam/sapphire-bot:latest
+    container_name: sapphire-bot
+    build:
+      context: ../
+    env_file:
+      - ../src/.env
+    restart: always
+    logging:
+      options:
+        max-size: '100m'
+        max-file: '3'
+    tty: true

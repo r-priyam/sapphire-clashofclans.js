@@ -1,0 +1,8 @@
+{
+	"root": true,
+	"parserOptions": {
+		"project": "./tsconfig.eslint.json"
+	},
+	"ignorePatterns": ["./dist/*"],
+	"extends": ["snail/common", "snail/node", "snail/typescript", "snail/prettier"]
+}

@@ -1,0 +1,59 @@
+{
+	"name": "sapphire-template",
+	"version": "1.0.0",
+	"private": true,
+	"author": "r-priyam <roy_priyam@outlook.com>",
+	"type": "module",
+	"imports": {
+		"#root/*": "./dist/*.js",
+		"#lib/*": "./dist/lib/*.js",
+		"#utils/*": "./dist/lib/util/*.js"
+	},
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch --onSuccess \"yarn start\"",
+		"format": "prettier --write . && eslint src --ext ts --fix",
+		"lint": "prettier --check . && eslint src --ext ts",
+		"start": "node --enable-source-maps dist/index.js",
+		"typecheck": "tsc -b src",
+		"watch": "tsup --watch"
+	},
+	"resolutions": {
+		"minimist": "^1.2.6"
+	},
+	"dependencies": {
+		"@discordjs/builders": "^0.16.0",
+		"@sapphire/decorators": "^5.0.0",
+		"@sapphire/discord.js-utilities": "^5.1.0",
+		"@sapphire/framework": "next",
+		"@sapphire/plugin-logger": "^3.0.1",
+		"@skyra/env-utilities": "^1.0.2",
+		"bufferutil": "^4.0.6",
+		"clashofclans.js": "^2.8.4",
+		"colorette": "^2.0.19",
+		"discord-api-types": "0.33.5",
+		"discord.js": "^13.10.2",
+		"figlet": "^1.5.2",
+		"gradient-string": "^2.0.1",
+		"reflect-metadata": "^0.1.13",
+		"utf-8-validate": "^5.0.9",
+		"zlib-sync": "^0.1.7"
+	},
+	"devDependencies": {
+		"@sapphire/eslint-config": "^4.3.8",
+		"@sapphire/prettier-config": "^1.4.4",
+		"@sapphire/ts-config": "^3.3.4",
+		"@types/figlet": "^1.5.4",
+		"@types/gradient-string": "^1.1.2",
+		"@types/node": "^18.6.4",
+		"@typescript-eslint/eslint-plugin": "^5.33.1",
+		"@typescript-eslint/parser": "^5.33.1",
+		"eslint": "^8.22.0",
+		"eslint-config-snail": "^1.2.0",
+		"prettier": "^2.7.1",
+		"tsup": "^6.2.2",
+		"typescript": "^4.7.4"
+	},
+	"packageManager": "yarn@3.2.2"
+}
