@@ -25,7 +25,7 @@
 	"dependencies": {
 		"@discordjs/builders": "^0.16.0",
 		"@sapphire/decorators": "^6.0.0",
-		"@sapphire/discord.js-utilities": "^6.0.2",
+		"@sapphire/discord.js-utilities": "^6.0.3",
 		"@sapphire/framework": "next",
 		"@sapphire/plugin-logger": "^3.0.1",
 		"@skyra/env-utilities": "^1.0.2",
