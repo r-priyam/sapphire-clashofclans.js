@@ -37,7 +37,7 @@
 		"figlet": "^1.5.2",
 		"gradient-string": "^2.0.1",
 		"reflect-metadata": "^0.1.13",
-		"utf-8-validate": "^5.0.9",
+		"utf-8-validate": "^6.0.4",
 		"zlib-sync": "^0.1.7"
 	},
 	"devDependencies": {
