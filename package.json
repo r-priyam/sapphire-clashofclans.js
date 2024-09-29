@@ -30,7 +30,7 @@
 		"@sapphire/plugin-logger": "^3.0.1",
 		"@skyra/env-utilities": "^1.0.2",
 		"bufferutil": "^4.0.6",
-		"clashofclans.js": "^2.8.4",
+		"clashofclans.js": "^3.3.13",
 		"colorette": "^2.0.19",
 		"discord-api-types": "0.33.5",
 		"discord.js": "^13.10.2",
