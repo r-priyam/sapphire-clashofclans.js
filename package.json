@@ -33,7 +33,7 @@
 		"clashofclans.js": "^2.8.4",
 		"colorette": "^2.0.19",
 		"discord-api-types": "0.33.5",
-		"discord.js": "^13.10.2",
+		"discord.js": "^14.16.3",
 		"figlet": "^1.5.2",
 		"gradient-string": "^2.0.1",
 		"reflect-metadata": "^0.1.13",
