@@ -20,40 +20,40 @@
 		"watch": "tsup --watch"
 	},
 	"resolutions": {
-		"minimist": "^1.2.6"
+		"minimist": "^1.2.8"
 	},
 	"dependencies": {
 		"@discordjs/builders": "^0.16.0",
-		"@sapphire/decorators": "^6.0.0",
-		"@sapphire/discord.js-utilities": "^6.0.3",
+		"@sapphire/decorators": "^6.1.0",
+		"@sapphire/discord.js-utilities": "^6.1.0",
 		"@sapphire/framework": "next",
-		"@sapphire/plugin-logger": "^3.0.1",
-		"@skyra/env-utilities": "^1.0.2",
-		"bufferutil": "^4.0.6",
-		"clashofclans.js": "^2.8.4",
-		"colorette": "^2.0.19",
+		"@sapphire/plugin-logger": "^3.0.7",
+		"@skyra/env-utilities": "^1.3.0",
+		"bufferutil": "^4.0.8",
+		"clashofclans.js": "^2.9.2",
+		"colorette": "^2.0.20",
 		"discord-api-types": "0.33.5",
-		"discord.js": "^13.10.2",
-		"figlet": "^1.5.2",
-		"gradient-string": "^2.0.1",
-		"reflect-metadata": "^0.1.13",
-		"utf-8-validate": "^5.0.9",
-		"zlib-sync": "^0.1.7"
+		"discord.js": "^13.17.1",
+		"figlet": "^1.8.0",
+		"gradient-string": "^2.0.2",
+		"reflect-metadata": "^0.2.2",
+		"utf-8-validate": "^5.0.10",
+		"zlib-sync": "^0.1.9"
 	},
 	"devDependencies": {
-		"@sapphire/eslint-config": "^4.3.8",
+		"@sapphire/eslint-config": "^4.4.3",
 		"@sapphire/prettier-config": "^1.4.5",
 		"@sapphire/ts-config": "^3.3.4",
-		"@types/figlet": "^1.5.4",
-		"@types/gradient-string": "^1.1.2",
-		"@types/node": "^18.6.4",
+		"@types/figlet": "^1.7.0",
+		"@types/gradient-string": "^1.1.6",
+		"@types/node": "^18.19.59",
 		"@typescript-eslint/eslint-plugin": "^5.33.1",
 		"@typescript-eslint/parser": "^5.33.1",
-		"eslint": "^8.22.0",
-		"eslint-config-snail": "^1.2.0",
-		"prettier": "^2.7.1",
-		"tsup": "^6.2.2",
+		"eslint": "^8.57.1",
+		"eslint-config-snail": "^1.6.0",
+		"prettier": "^2.8.8",
+		"tsup": "^6.7.0",
 		"typescript": "^4.7.4"
 	},
-	"packageManager": "yarn@3.2.2"
+	"packageManager": "yarn@3.8.6"
 }
